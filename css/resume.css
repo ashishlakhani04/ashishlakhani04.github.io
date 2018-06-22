@@ -157,9 +157,12 @@ a:hover, a:focus, a:active {
   color: #fff;
 }
 
-
-@media (min-width: 768px){
-
+.manual-card{
+  transition: transform .2s;
+}
+.manual-card:hover{
+  transform: scale(1.01);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
