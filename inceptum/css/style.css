@@ -1,0 +1,12 @@
+@media screen and (max-width: 992px) {
+    .clock{
+    	display: none !important;
+    }
+}
+
+#about{
+	background-image: url("../img/about/mainBack2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
