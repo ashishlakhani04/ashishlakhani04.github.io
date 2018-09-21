@@ -5,8 +5,14 @@
 }
 
 #about{
-	background-image: url("../img/about/mainBack2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	color: black !important;
 	
 }
+.csmain{
+	background-image: url('../img/events/csmain2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding-top: 200px;
+}
+

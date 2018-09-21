@@ -55,6 +55,10 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
             </li>
+            <li id=bgaudio  class="volumebutton" style="color: white;z-index:10000;margin-top: 10px;padding-left: 10px;">
+              <img id=budio onclick=music() src="img/audioff.png" />
+            <audio id=gggaudio src="img/about/mrrobot.mp3"  logo></audio>
+            </li>
           </ul>
         </div>
       </div>
@@ -74,19 +78,40 @@
         </div>
       </div>
     </header>
-    <audio autoplay loop>
+    <!-- <audio controls autoplay loop>
+      
+    </audio> -->
+    <!-- <audio autoplay controls loop>
       <source src="img/about/mrrobot.mp3" type="audio/mpeg">
-    </audio>
+    </audio> -->
     <!-- About -->
-    <section id="about" style="padding-top: 90px !important; color: #fff;">
+    <section id="about" style="padding: 60px 0 !important; color: black;background-color: #2c3e50;">
       <div class="container">
+        <div class="row" style="margin-bottom: 30px">
+          <div class="col-lg-12">
+            <h2 class="section-heading text-uppercase text-center text-white"><i class="fas fa-university"></i> About Us</h2>
+          </div>
+        </div>
         <div class="row">
-          <div class="col-lg-8 text-center mainAbout offset-2">
-            <h2 class="section-heading text-uppercase"><i class="fas fa-university"></i> About Us</h2>
+          <div class="col-lg-6">
+            <img src="img/about.jpg" style="width: 100%;">
+            <h3 style="color: #f39c12;margin-top: 20px;">&#34; It gives us immense pleasure to introduce, this year's Edition of Inceptum &#34;</h3>
+            <div class="text-right">
+              <span class="text-white" style="font-size: 1.7em;">- Coordinate Team</span>
+            </div>
+          </div>
+          <div class="col-lg-6 mainAbout ">
+            
+
+            <h4 style="color: #f39c12;">GBPEC Delhi</h4>
             <p class="section-subheading" style="text-align: justify;font-size: 0.9em !important;color: #7f8c8d !important;">G B Pant Engineering College was established by the Govt. of NCT of Delhi in the year 2007 with the aim of imparting quality technical education for the students of Delhi and nearby areas. Since its inception, the faculty and staff have been tirelessly working towards the growth of the institution.
 
-Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, the college started with two batches of students, one each for Mechanical Engineering and Electronics and Communications Engineering courses. Increasing its horizon in the year 2010, a batch of Computer Engineering course was started in the college. With the presence of vibrant and dynamic faculty members of highest academic calibre selected by UPSC, G B Pant has been able to produce three batches of engineering graduates who have been pursuing their careers in companies and higher education institutes in India and abroad. <br><br>
-              The college has been operating from its building in G B Pant Polytechnic campus which has been transformed to be equipped with ultra-modern facilities. The college has already established various labs for all the branches with up to date modern equipment which ensures that the students are trained in the practical realm according to the current industry standards. The college is in the process of making its own building with state of the art facilities
+Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, the college started with two batches of students, one each for Mechanical Engineering and Electronics and Communications Engineering courses. Increasing its horizon in the year 2010, a batch of Computer Engineering course was started in the college. With the presence of vibrant and dynamic faculty members of highest academic calibre selected by UPSC, G B Pant has been able to produce three batches of engineering graduates who have been pursuing their careers in companies and higher education institutes in India and abroad.
+              
+            </p>
+            <h4 style="color: #f39c12;">Inceptum</h4>
+            <p class="section-subheading" style="text-align: justify;font-size: 0.9em !important;color: #7f8c8d !important;">The absence of indecision even in the face of death is the true mark of valour. Inceptum is a two day technical fest organized by GBPEC Students which explores the innate talent of the students.It is a platform to think, create and exhibit innovative ideas. The winners are awarded with attractive cash prizes but the learning experience tops it off.
+              
             </p>
           </div>
         </div>
@@ -182,13 +207,25 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/events/python.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
+              <h4>Scrap The Soup</h4>
+              <p class="text-muted">Hack me if you can.</p>
             </div>
           </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" style="text-align: right;">
+            <a class="btn btn-warning btn-lg text-white text-uppercase js-scroll-trigger" href="cs/index.html">More CS Events <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-lg-12">
+            <h2 class="section-subheading text-muted" style="color: #fff !important;"><i class="fas fa-bolt"></i> Electrical And Electronics</h2>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
               <div class="portfolio-hover">
@@ -230,6 +267,119 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
               <h4>Window</h4>
               <p class="text-muted">Photography</p>
             </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" style="text-align: right;">
+            <a class="btn btn-warning btn-lg text-white text-uppercase js-scroll-trigger" href="#services">More EE Events <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-lg-12">
+            <h2 class="section-subheading text-muted" style="color: #fff !important;"><i class="fas fa-car"></i> Mechanical</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Lines</h4>
+              <p class="text-muted">Branding</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Southwest</h4>
+              <p class="text-muted">Website Design</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Window</h4>
+              <p class="text-muted">Photography</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" style="text-align: right;">
+            <a class="btn btn-warning btn-lg text-white text-uppercase js-scroll-trigger" href="#services">More ME Events <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-lg-12">
+            <h2 class="section-subheading text-muted" style="color: #fff !important;"><i class="fas fa-microphone"></i> Cultural</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Lines</h4>
+              <p class="text-muted">Branding</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Southwest</h4>
+              <p class="text-muted">Website Design</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Window</h4>
+              <p class="text-muted">Photography</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" style="text-align: right;">
+            <a class="btn btn-warning btn-lg text-white text-uppercase js-scroll-trigger" href="#services">More Cul Events <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -474,21 +624,21 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
 
                   <div class="row" style="margin: 20px 0">
 
-                    <div class="col-lg-6 text-center offset-3">
+                    <div class="col-lg-8 text-center offset-2">
 
                       <div class="row">
 
-                        <div class="col-lg-4">
-                          <img src="img/events/gold-medal.png" width="100%">
-                          prize:890
+                        <div class="col-lg-3">
+                          <img src="img/events/first.png" width="100%">
+                          <h3> &#x20b9 3500</h3>
                         </div>
-                        <div class="col-lg-4">
-                          <img src="img/events/gold-medal.png" width="100%">
-                          prize:890
+                        <div class="col-lg-3 offset-1">
+                          <img src="img/events/second.png" width="100%">
+                          <h3> &#x20b9 1500</h3>
                         </div>
-                        <div class="col-lg-4">
-                          <img src="img/events/gold-medal.png" width="100%">
-                          prize:890
+                        <div class="col-lg-3 offset-1">
+                          <img src="img/events/third.png" width="100%">
+                          <h3> &#x20b9 1000</h3>
                         </div>
                       </div>
                       
@@ -598,12 +748,12 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
               <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Android Development</h2>
+                  <h2 class="text-uppercase">Web Development</h2>
                   <p class="item-intro text-muted">I know HTML (How To Meet Ladies)</p>
-                  <img class="img-fluid d-block mx-auto" src="img/events/android.jpeg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/events/webd.jpeg" alt="">
                   <p style="text-align: justify;">This is a team event in which the participants will be tested on their ability to design websites. This competition consists of 2 rounds. <br>
-<b>Round 1</b> :- In this round multiple choice questions(MCQ’s) will be asked. <br>
-<b>Round 2</b> :- In this round participants have to design the website on a    particular theme.</p>
+                  <b>Round 1</b> :- In this round multiple choice questions(MCQ’s) will be asked. <br>
+                  <b>Round 2</b> :- In this round participants have to design the website on a    particular theme.</p>
 
                   <ul class="list-inline">
                     <li><b><i class="far fa-calendar-alt"></i> Date</b>: 05 October 2018</li>
@@ -611,7 +761,31 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
                     <li><b><i class="fas fa-map-marker-alt"></i> Venue</b>: CC1 Lab</li>
                   </ul>
 
-                  <!-- <img src="img/events/prizeweb.png"> -->
+                  <!-- <img src="img/events/gold-medal.png"> -->
+
+                  <div class="row" style="margin: 20px 0">
+
+                    <div class="col-lg-8 text-center offset-2">
+
+                      <div class="row">
+
+                        <div class="col-lg-3">
+                          <img src="img/events/first.png" width="100%">
+                          <h3> &#x20b9 3500</h3>
+                        </div>
+                        <div class="col-lg-3 offset-1">
+                          <img src="img/events/second.png" width="100%">
+                          <h3> &#x20b9 1500</h3>
+                        </div>
+                        <div class="col-lg-3 offset-1">
+                          <img src="img/events/third.png" width="100%">
+                          <h3> &#x20b9 1000</h3>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    
+                  </div>
 
                   <!-- Coordinators -->
 
@@ -626,7 +800,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
                       <div class="row">
                         <div class="col-sm-6">
                           <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+                            <img class="mx-auto rounded-circle" src="img/team/ashish.png" alt="">
                             <h4>Ashish Lakhani</h4>
                             <p class="text-muted">+91-9971815741</p>
                             <ul class="list-inline social-buttons">
@@ -650,9 +824,9 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
                         </div>
                         <div class="col-sm-6">
                           <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">+91-9971815741</p>
+                            <img class="mx-auto rounded-circle" src="img/team/jasbir.jpeg" alt="">
+                            <h4>Jasbir Singh</h4>
+                            <p class="text-muted">+91-8383806091</p>
                             <ul class="list-inline social-buttons">
                               <li class="list-inline-item">
                                 <a href="#">
@@ -686,10 +860,10 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
 
                   <!-- ////Coordinators//// -->
 
-                  <button class="btn btn-success btn-xl" data-dismiss="modal" type="button">
+                  <button class="btn btn-success btn-xl" data-dismiss="modal" type="button" style="margin-top: 10px;">
                     <i class="fas fa-check"></i>
                     Register</button>
-                  <button class="btn btn-primary btn-xl" data-dismiss="modal" type="button">
+                  <button class="btn btn-primary btn-xl" data-dismiss="modal" type="button" style="margin-top: 10px;">
                     <i class="fas fa-times"></i>
                     Close</button>
                   
@@ -700,7 +874,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
         </div>
       </div>
     </div>
-
+    
     <!-- Modal 3 -->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
@@ -746,9 +920,149 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-lg-8 mx-auto">
+              <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Web Development</h2>
+                  <p class="item-intro text-muted">I know HTML (How To Meet Ladies)</p>
+                  <img class="img-fluid d-block mx-auto" src="img/events/webd.jpeg" alt="">
+                  <p style="text-align: justify;">This is a team event in which the participants will be tested on their ability to design websites. This competition consists of 2 rounds. <br>
+                  <b>Round 1</b> :- In this round multiple choice questions(MCQ’s) will be asked. <br>
+                  <b>Round 2</b> :- In this round participants have to design the website on a    particular theme.</p>
+
+                  <ul class="list-inline">
+                    <li><b><i class="far fa-calendar-alt"></i> Date</b>: 05 October 2018</li>
+                    <li><b><i class="far fa-clock"></i> Time</b>: 10AM</li>
+                    <li><b><i class="fas fa-map-marker-alt"></i> Venue</b>: CC1 Lab</li>
+                  </ul>
+
+                  <!-- <img src="img/events/gold-medal.png"> -->
+
+                  <div class="row" style="margin: 20px 0">
+
+                    <div class="col-lg-8 text-center offset-2">
+
+                      <div class="row">
+
+                        <div class="col-lg-3">
+                          <img src="img/events/first.png" width="100%">
+                          <h3> &#x20b9 3500</h3>
+                        </div>
+                        <div class="col-lg-3 offset-1">
+                          <img src="img/events/second.png" width="100%">
+                          <h3> &#x20b9 1500</h3>
+                        </div>
+                        <div class="col-lg-3 offset-1">
+                          <img src="img/events/third.png" width="100%">
+                          <h3> &#x20b9 1000</h3>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    
+                  </div>
+
+                  <!-- Coordinators -->
+
+                  <section class="bg-light" id="team" style="margin-bottom: 30px;padding-top: 20px;padding-bottom: 10px;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-12 text-center">
+                          <h3 class="section-heading text-uppercase"><i class="fas fa-users"></i> Coordinators</h3>
+                          <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="img/team/ashish.png" alt="">
+                            <h4>Ashish Lakhani</h4>
+                            <p class="text-muted">+91-9971815741</p>
+                            <ul class="list-inline social-buttons">
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-twitter"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-facebook-f"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-linkedin-in"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="img/team/jasbir.jpeg" alt="">
+                            <h4>Jasbir Singh</h4>
+                            <p class="text-muted">+91-8383806091</p>
+                            <ul class="list-inline social-buttons">
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-twitter"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-facebook-f"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-linkedin-in"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <!-- <div class="row">
+                        <div class="col-lg-8 mx-auto text-center">
+                          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                        </div>
+                      </div> -->
+                    </div>
+                  </section>
+
+
+
+                  <!-- ////Coordinators//// -->
+
+                  <button class="btn btn-success btn-xl" data-dismiss="modal" type="button" style="margin-top: 10px;">
+                    <i class="fas fa-check"></i>
+                    Register</button>
+                  <button class="btn btn-primary btn-xl" data-dismiss="modal" type="button" style="margin-top: 10px;">
+                    <i class="fas fa-times"></i>
+                    Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  Project Details Go Here
                   <h2 class="text-uppercase">Project Name</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
@@ -767,7 +1081,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Modal 5 -->
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
@@ -780,9 +1094,148 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-lg-8 mx-auto">
+              <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Web Development</h2>
+                  <p class="item-intro text-muted">I know HTML (How To Meet Ladies)</p>
+                  <img class="img-fluid d-block mx-auto" src="img/events/webd.jpeg" alt="">
+                  <p style="text-align: justify;">This is a team event in which the participants will be tested on their ability to design websites. This competition consists of 2 rounds. <br>
+                  <b>Round 1</b> :- In this round multiple choice questions(MCQ’s) will be asked. <br>
+                  <b>Round 2</b> :- In this round participants have to design the website on a    particular theme.</p>
+
+                  <ul class="list-inline">
+                    <li><b><i class="far fa-calendar-alt"></i> Date</b>: 05 October 2018</li>
+                    <li><b><i class="far fa-clock"></i> Time</b>: 10AM</li>
+                    <li><b><i class="fas fa-map-marker-alt"></i> Venue</b>: CC1 Lab</li>
+                  </ul>
+
+                  <!-- <img src="img/events/gold-medal.png"> -->
+
+                  <div class="row" style="margin: 20px 0">
+
+                    <div class="col-lg-8 text-center offset-2">
+
+                      <div class="row">
+
+                        <div class="col-lg-3">
+                          <img src="img/events/first.png" width="100%">
+                          <h3> &#x20b9 3500</h3>
+                        </div>
+                        <div class="col-lg-3 offset-1">
+                          <img src="img/events/second.png" width="100%">
+                          <h3> &#x20b9 1500</h3>
+                        </div>
+                        <div class="col-lg-3 offset-1">
+                          <img src="img/events/third.png" width="100%">
+                          <h3> &#x20b9 1000</h3>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    
+                  </div>
+
+                  <!-- Coordinators -->
+
+                  <section class="bg-light" id="team" style="margin-bottom: 30px;padding-top: 20px;padding-bottom: 10px;">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-12 text-center">
+                          <h3 class="section-heading text-uppercase"><i class="fas fa-users"></i> Coordinators</h3>
+                          <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="img/team/ashish.png" alt="">
+                            <h4>Ashish Lakhani</h4>
+                            <p class="text-muted">+91-9971815741</p>
+                            <ul class="list-inline social-buttons">
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-twitter"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-facebook-f"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-linkedin-in"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="img/team/jasbir.jpeg" alt="">
+                            <h4>Jasbir Singh</h4>
+                            <p class="text-muted">+91-8383806091</p>
+                            <ul class="list-inline social-buttons">
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-twitter"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-facebook-f"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#">
+                                  <i class="fab fa-linkedin-in"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <!-- <div class="row">
+                        <div class="col-lg-8 mx-auto text-center">
+                          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                        </div>
+                      </div> -->
+                    </div>
+                  </section>
+
+
+
+                  <!-- ////Coordinators//// -->
+
+                  <button class="btn btn-success btn-xl" data-dismiss="modal" type="button" style="margin-top: 10px;">
+                    <i class="fas fa-check"></i>
+                    Register</button>
+                  <button class="btn btn-primary btn-xl" data-dismiss="modal" type="button" style="margin-top: 10px;">
+                    <i class="fas fa-times"></i>
+                    Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  Project Details Go Here
                   <h2 class="text-uppercase">Project Name</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
@@ -801,7 +1254,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Modal 6 -->
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
@@ -851,7 +1304,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
     <script src="js/flipclock.min.js"></script>
-
+    <script src="js/main.js"></script>
     <script type="text/javascript">
       var clock;
       $(document).ready(function() {
