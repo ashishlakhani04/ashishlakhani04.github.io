@@ -4,12 +4,27 @@ function music() {
 	var s = document.getElementById("gggaudio");
 	if(countt%2===0)
 	{
-		document.getElementById("budio").src = 'file:///Users/jasbir/Downloads/ashishlakhani04.github.io-master%202/inceptum/img/audioon.png';
+		document.getElementById("budio").src = 'img/audioon.png';
 		s.play();
 	}
 	else
 	{
-		document.getElementById("budio").src = 'file:///Users/jasbir/Downloads/ashishlakhani04.github.io-master%202/inceptum/img/audioff.png';
+		document.getElementById("budio").src = 'img/audioff.png';
+		s.pause();
+	}
+	countt+=1;
+}
+function music2() {
+	var po = document.getElementById("budio").src;
+	var s = document.getElementById("gggaudio");
+	if(countt%2===0)
+	{
+		document.getElementById("budio").src = '../img/audioon.png';
+		s.play();
+	}
+	else
+	{
+		document.getElementById("budio").src = '../img/audioff.png';
 		s.pause();
 	}
 	countt+=1;

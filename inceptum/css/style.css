@@ -15,4 +15,11 @@
 
 	padding-top: 200px;
 }
+.memain{
+	background-image: url('../img/events/me/memain.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: center;
+	padding-top: 200px;
+}
 
