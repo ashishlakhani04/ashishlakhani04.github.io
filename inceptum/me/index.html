@@ -28,8 +28,27 @@
 
   </head>
 
-  <body id="page-top">
-
+  <body id="page-top" onload="myFunction()" style="background-color: black;">
+    <div class="loader">
+        <div class="msg">Scanning</div>
+            <div id="console"></div>
+        <div class="newcharacter">
+            <div class="chair"></div>
+            <div class="leftshoe"></div>
+            <div class="rightshoe"></div>
+            <div class="legs"></div>
+            <div class="torso">
+                <div class="bodyloader"></div>
+                <div class="leftarm"></div>
+                <div class="rightarm"></div>
+                <div class="head">
+                    <div class="eyes"></div>
+                </div>
+            </div>
+            <div class="laptop"></div>
+        </div>
+    </div>
+    <div class="maindiv" style="display: none;">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #212529 !important;height: 80px;">
       <div class="container">
@@ -162,44 +181,44 @@
     
 
     <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <!--<footer>-->
+    <!--  <div class="container">-->
+    <!--    <div class="row">-->
+    <!--      <div class="col-md-4">-->
+    <!--        <span class="copyright">Copyright &copy; Your Website 2018</span>-->
+    <!--      </div>-->
+    <!--      <div class="col-md-4">-->
+    <!--        <ul class="list-inline social-buttons">-->
+    <!--          <li class="list-inline-item">-->
+    <!--            <a href="#">-->
+    <!--              <i class="fab fa-twitter"></i>-->
+    <!--            </a>-->
+    <!--          </li>-->
+    <!--          <li class="list-inline-item">-->
+    <!--            <a href="#">-->
+    <!--              <i class="fab fa-facebook-f"></i>-->
+    <!--            </a>-->
+    <!--          </li>-->
+    <!--          <li class="list-inline-item">-->
+    <!--            <a href="#">-->
+    <!--              <i class="fab fa-linkedin-in"></i>-->
+    <!--            </a>-->
+    <!--          </li>-->
+    <!--        </ul>-->
+    <!--      </div>-->
+    <!--      <div class="col-md-4">-->
+    <!--        <ul class="list-inline quicklinks">-->
+    <!--          <li class="list-inline-item">-->
+    <!--            <a href="#">Privacy Policy</a>-->
+    <!--          </li>-->
+    <!--          <li class="list-inline-item">-->
+    <!--            <a href="#">Terms of Use</a>-->
+    <!--          </li>-->
+    <!--        </ul>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</footer>-->
 
     <!-- Portfolio Modals -->
 
@@ -355,7 +374,7 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Mechxpert</h2>
                   <!-- <p class="item-intro text-muted">iOS > Android, Change my mind</p> -->
-                  <img class="img-fluid d-block mx-auto" src="../img/events/android.jpeg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="../img/events/me/quiz.jpg" alt="">
                   <p style="text-align: justify;">This is a team event in which participants needs to answer the questions related to the topics of Mechanical and Automobile World and Comprises of Three Rounds :
  <br>
 <b>Round 1</b> :-  This Round will have a written test consisting objective MCQ and One Word type Questions. <br>
@@ -494,9 +513,9 @@
               <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Scrap The Soup</h2>
-                  <p class="item-intro text-muted">Hack me if you can</p>
-                  <img class="img-fluid d-block mx-auto" src="../img/events/python.jpg" alt="">
+                  <h2 class="text-uppercase">Drone Dash/Racing</h2>
+                  <!--<p class="item-intro text-muted">Hack me if you can</p>-->
+                  <img class="img-fluid d-block mx-auto" src="../img/events/me/drone.jpeg" alt="">
                   <p style="text-align: justify;">This is a team event in which the participants will be tested on their ability to scrap data from different websites . This competition consists of 2 rounds :
  <br>
 <b>Round 1</b> :-  In this round the participants will be provided with problems related to web scraping and they are required to write code for the same and get the data in an excel sheet/text file. <br>
@@ -631,9 +650,9 @@
               <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Online Coding</h2>
-                  <p class="item-intro text-muted">ACM-ICPC mein jaana hai?</p>
-                  <img class="img-fluid d-block mx-auto" src="../img/events/online.jpg" alt="">
+                  <h2 class="text-uppercase">Junkyard</h2>
+                  <!--<p class="item-intro text-muted">ACM-ICPC mein jaana hai?</p>-->
+                  <img class="img-fluid d-block mx-auto" src="../img/events/me/junkyard.jpg" alt="">
                   <p style="text-align: justify;">It is an individual contest requiring the participants to solve algorithmic problems. Participants will be ranked on the basis of score they get by passing certain test data. 
 Event will have 2 rounds:
  <br>
@@ -769,9 +788,9 @@ Event will have 2 rounds:
               <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Coding Premier League</h2>
-                  <p class="item-intro text-muted">For more details: Watch IPL</p>
-                  <img class="img-fluid d-block mx-auto" src="../img/events/cpl.jpg" alt="">
+                  <h2 class="text-uppercase">Photography</h2>
+                  <!--<p class="item-intro text-muted">For more details: Watch IPL</p>-->
+                  <img class="img-fluid d-block mx-auto" src="../img/events/me/photography.jpg" alt="">
                   <p style="text-align: justify;">It is a multiple rounds event. In each round the participants will be randomly paired up with some other participant and they will challenge each other to solve a competitive coding type problem. The winner will proceed to the next round, this will continue until only one pair is left for the challenge.</p>
 
                   <ul class="list-inline">
@@ -889,8 +908,7 @@ Event will have 2 rounds:
         </div>
       </div>
     </div>
-    
-
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
@@ -907,8 +925,13 @@ Event will have 2 rounds:
     <script src="../js/agency.min.js"></script>
     <script src="../js/flipclock.min.js"></script>
     <script src="../js/mymain.js"></script>
-    
-
+    <script type="text/javascript">
+      $(document).ready(function() {
+      setTimeout(function() {
+        window.document.body.children[17].remove();
+      },2);
+    });
+    </script>
   </body>
 
 </html>

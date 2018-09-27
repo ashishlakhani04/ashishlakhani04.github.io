@@ -28,9 +28,27 @@
 
   </head>
 
-  <body id="page-top">
-
-    <div>
+  <body id="page-top" onload="myFunction()" style="background-color: black;">
+    <div class="loader">
+        <div class="msg">Scanning</div>
+            <div id="console"></div>
+        <div class="newcharacter">
+            <div class="chair"></div>
+            <div class="leftshoe"></div>
+            <div class="rightshoe"></div>
+            <div class="legs"></div>
+            <div class="torso">
+                <div class="bodyloader"></div>
+                <div class="leftarm"></div>
+                <div class="rightarm"></div>
+                <div class="head">
+                    <div class="eyes"></div>
+                </div>
+            </div>
+            <div class="laptop"></div>
+        </div>
+    </div>
+    <div class="maindiv" style="display: none;">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
@@ -45,14 +63,18 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
+              
+              <a class="nav-link" href="schedule/index.html">Schedule</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Events</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#Sponsors">Sponsors</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
             </li>
@@ -95,7 +117,7 @@
         </div>
         <div class="row">
           <div class="col-lg-6">
-            <img src="img/about.jpg" style="width: 100%;">
+            <img src="img/events/college.jpg" style="width: 100%;">
             <h3 style="color: #f39c12;margin-top: 20px;">&#34; It gives us immense pleasure to introduce, this year's Edition of Inceptum &#34;</h3>
             <div class="text-right">
               <span class="text-white" style="font-size: 1.7em;">- Coordinate Team</span>
@@ -114,6 +136,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
             <p class="section-subheading" style="text-align: justify;font-size: 0.9em !important;color: #7f8c8d !important;">The absence of indecision even in the face of death is the true mark of valour. Inceptum is a two day technical fest organized by GBPEC Students which explores the innate talent of the students.It is a platform to think, create and exhibit innovative ideas. The winners are awarded with attractive cash prizes but the learning experience tops it off.
               
             </p>
+            
           </div>
         </div>
         
@@ -148,7 +171,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
             </a>
             <div class="portfolio-caption">
               <h4>Web Devlopment</h4>
-              <p class="text-muted">I know HTML (How To Meet Ladies)</p>
+               <p class="text-muted">I know HTML (How To Meet Ladies)</p> 
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -162,7 +185,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
             </a>
             <div class="portfolio-caption">
               <h4>Android Development</h4>
-              <p class="text-muted">iOS > Android, Change my mind</p>
+               <p class="text-muted">iOS > Android, Change my mind</p> 
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -176,7 +199,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
             </a>
             <div class="portfolio-caption">
               <h4>Scrap The Soup</h4>
-              <p class="text-muted">Hack me if you can.</p>
+               <p class="text-muted">Hack me if you can.</p> 
             </div>
           </div>
         </div>
@@ -323,7 +346,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
               <img class="img-fluid" src="img/events/nontech/techwrite.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Technical Writing</h4>
+              <h4>Content Writing</h4>
               <!-- <p class="text-muted">Website Design</p> -->
             </div>
           </div>
@@ -353,63 +376,71 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
     
 
     <!-- Team -->
-    <section class="bg-light" id="team" style="background-color: #e74c3c !important;padding-top: 50px;">
+    <section class="bg-light" id="team" style="background-color: #e74c3c !important;padding-top: 50px;padding-bottom: 30px;">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase" style="color: #fff !important;"><i class="fas fa-users"></i> Our Amazing Team</h2>
+            <h2 class="section-heading text-uppercase" style="color: #fff !important;"><i class="fas fa-users"></i> Our Faculty Team</h2>
             <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
           </div>
         </div>
         <div class="row" style="margin-top: 40px;">
           <div class="col-sm-3">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/anusaini.jpg" alt="">
-              <h4 class="text-white">Anu Saini</h4>
-              <p>Event Head</p>
-              
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/smriti.png" alt="">
-              <h4 class="text-white">Smriti</h4>
-              <p>Event Head</p>
-              
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/rohitanand.png" alt="">
               <h4 class="text-white">Rohit Anand</h4>
-              <p>Promotional Head</p>
+              <p>Chairperson</p>
               
             </div>
           </div>
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/smriti.jpg" alt="">
+              <h4 class="text-white">Smriti</h4>
+              <p>Coordinator</p>
+              
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/anusaini.jpg" alt="">
+              <h4 class="text-white">Anu Saini</h4>
+              <p>Deputy Coordinator</p>
+              
+            </div>
+          </div>
+          
+          
           <div class="col-sm-3">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/jayantsupale.jpg" alt="">
               <h4 class="text-white">Jayant Supale</h4>
-              <p>Promotional Head</p>
+              <p>Member</p>
               
             </div>
           </div>
           
         </div>
-        <div class="row">
+        <div class="row" style="">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase" style="color: #fff !important;"><i class="fas fa-users"></i> Our Student Team</h2>
+            <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+          </div>
+        </div>
+        <div class="row" style="padding-top: 30px;">
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/ravi.jpg" alt="">
               <h4 class="text-white">Ravi Kumar Meena</h4>
-              <p>Event Head</p>
+              <p>Convener</p>
               
             </div>
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/mohit.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/mohit.jpeg" alt="">
               <h4 class="text-white">Mohit Phulera</h4>
-              <p>Event Head</p>
+              <p>Co-Convener</p>
               
             </div>
           </div>
@@ -417,7 +448,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/rajat.jpeg" alt="">
               <h4 class="text-white">Rajat Kakran</h4>
-              <p>Promotional Head</p>
+              <p>Event Manager</p>
               
             </div>
           </div>
@@ -461,9 +492,28 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/divya.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/divya.jpeg" alt="">
               <h4 class="text-white">Divya Barwal</h4>
               <p>ECE Head</p>
+              
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/sourav.jpeg" alt="">
+              <h4 class="text-white">Sourav Kumar</h4>
+              <p>Mechanical Head</p>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/vishal.jpeg" alt="">
+              <h4 class="text-white">Vishal Singhal</h4>
+              <p>Mechanical Head</p>
               
             </div>
           </div>
@@ -475,9 +525,6 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
               
             </div>
           </div>
-          
-        </div>
-        <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/darsh.jpg" alt="">
@@ -486,22 +533,8 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
               
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/man-user.png" alt="">
-              <h4 class="text-white">Sourav Kumar</h4>
-              <p>Mechanical Head</p>
-              
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/man-user.png" alt="">
-              <h4 class="text-white">Vishal Singhal</h4>
-              <p>Mechanical Head</p>
-              
-            </div>
-          </div>
+          
+          
           
         </div>
         <div class="row">
@@ -536,12 +569,12 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
     </section>
 
     <!-- Sponsors -->
-    <!-- <section class="py-5" id="sponsors">
+    <!-- <section class="py-5" id="sponsors" style="background-color: #fff;">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
+              <img class="img-fluid d-block mx-auto" src="img/events/sponsors/redbull.png" alt="">
             </a>
           </div>
           <div class="col-md-3 col-sm-6">
@@ -564,7 +597,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
     </section> -->
 
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" style="padding:30px 0px;">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -606,50 +639,80 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
                 </div>
               </div>
             </form>
+            <div class="row text-center" style="padding-top: 30px;">
+              <div class="col-sm-2">
+                <p style="color: #fff">Facebook</p>
+                <a href="https://www.facebook.com/inceptumtechfest/" target="_blank"><img src="img/contact/facebook.png" style="width:60px;"></a>
+              </div>
+              <div class="col-sm-2">
+                <p style="color: #fff">Gmail</p>
+                <a href="mailto:inceptum2k18.gbpec.edu.in" target=""><img src="img/contact/gmail.png" style="width:60px;"></a>
+              </div>
+            </div>
+            
+            <!-- <div class="row">
+              <div class="col-lg-12">
+                <h3 class="section-heading text-uppercase"><i class="fas fa-phone"></i> Contact Numbers</h2>
+                <p class="section-subheading text-muted" style="color: #E74C3C !important;">+91-7007522052</p>
+                <p class="section-subheading text-muted" style="color: #E74C3C !important;">+91-9818201806</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <h3 class="section-heading text-uppercase"><i class="fas fa-envelope"></i> Mail us at</h2>
+                <a class="section-subheading text-muted" style="color: #E74C3C !important;" href="mailto:inceptum2k18@gbpec.edu.in">inceptum2k18@gbpec.edu.in</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <h3 class="section-heading text-uppercase"><i class="fas fa-envelope"></i> Social Websites</h2>
+                <a class="section-subheading text-muted" style="color: #E74C3C !important;" href="mailto:inceptum2k18@gbpec.edu.in">inceptum2k18@gbpec.edu.in</a>
+              </div>
+            </div> -->
           </div>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <!--<footer>-->
+    <!--  <div class="container">-->
+    <!--    <div class="row">-->
+    <!--      <div class="col-md-4">-->
+    <!--        <span class="copyright">Copyright &copy; Your Website 2018</span>-->
+    <!--      </div>-->
+    <!--      <div class="col-md-4">-->
+    <!--        <ul class="list-inline social-buttons">-->
+    <!--          <li class="list-inline-item">-->
+    <!--            <a href="#">-->
+    <!--              <i class="fab fa-twitter"></i>-->
+    <!--            </a>-->
+    <!--          </li>-->
+    <!--          <li class="list-inline-item">-->
+    <!--            <a href="#">-->
+    <!--              <i class="fab fa-facebook-f"></i>-->
+    <!--            </a>-->
+    <!--          </li>-->
+    <!--          <li class="list-inline-item">-->
+    <!--            <a href="#">-->
+    <!--              <i class="fab fa-linkedin-in"></i>-->
+    <!--            </a>-->
+    <!--          </li>-->
+    <!--        </ul>-->
+    <!--      </div>-->
+    <!--      <div class="col-md-4">-->
+    <!--        <ul class="list-inline quicklinks">-->
+    <!--          <li class="list-inline-item">-->
+    <!--            <a href="#">Privacy Policy</a>-->
+    <!--          </li>-->
+    <!--          <li class="list-inline-item">-->
+    <!--            <a href="#">Terms of Use</a>-->
+    <!--          </li>-->
+    <!--        </ul>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</footer>-->
 
     <!-- Portfolio Modals -->
 
@@ -668,7 +731,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Web Development</h2>
-                  <p class="item-intro text-muted">I know HTML (How To Meet Ladies)</p>
+                   <p class="item-intro text-muted">I know HTML (How To Meet Ladies)</p> 
                   <img class="img-fluid d-block mx-auto" src="img/events/webd.jpeg" alt="">
                   <p style="text-align: justify;">This is a team event in which the participants will be tested on their ability to design websites. This competition consists of 2 rounds. <br>
 <b>Round 1</b> :- In this round multiple choice questions(MCQ’s) will be asked. <br>
@@ -773,7 +836,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Android Development</h2>
-                  <p class="item-intro text-muted">iOS > Android, Change my mind</p>
+                   <p class="item-intro text-muted">iOS > Android, Change my mind</p> 
                   <img class="img-fluid d-block mx-auto" src="img/events/android.jpeg" alt="">
                   <p style="text-align: justify;">It is a team event in which the participants will be tested on their ability to design apps. Event will have 2 rounds: <br>
                   <b>Round 1</b> :- In this round multiple choice questions(MCQ’s) will be asked the questions will be basically from Core Java, Android Components, Android Architecture, Multithreading.  <br>
@@ -878,7 +941,7 @@ Affiliated to Guru Gobind Singh Indraprastha University and approved by AICTE, t
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Scrap The Soup</h2>
-                  <p class="item-intro text-muted">Only if you love Scrapping and Soup</p>
+                   <p class="item-intro text-muted">Only if you love Scrapping and Soup</p> 
                   <img class="img-fluid d-block mx-auto" src="img/events/python.jpg" alt="">
                   <p style="text-align: justify;">This is a team event in which the participants will be tested on their ability to scrap data from different websites . This competition consists of 2 rounds : <br>
                   <b>Round 1</b> :- In this round the participants will be provided with problems related to web scraping and they are required to write code for the same and get the data in an excel sheet/text file.   <br>
@@ -1714,10 +1777,10 @@ And finally the last round in which 4 teams will play .The questions asked will 
               <div class="col-lg-10 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Technical Writing</h2>
+                  <h2 class="text-uppercase">Content Writing</h2>
                   <!-- <p class="item-intro text-muted">Only if you love Scrapping and Soup</p> -->
                   <img class="img-fluid d-block mx-auto" src="img/events/nontech/techwrite.jpg" alt="">
-                  <p style="text-align: justify;"> Technical writing is any written form of writing or drafting technical communication used in a variety of technical and occupational fields.
+                  <p style="text-align: justify;"> Content writing is any written form of writing or drafting technical communication used in a variety of technical and occupational fields.
 Use an impersonal style. Any opinions should be omitted.
 Be thorough in description and provide enough detail to make your points in a given word imit.
 </p>
@@ -1973,6 +2036,13 @@ T-shirt. The participant is required to paint a logo of Inceptum (of their wish)
     }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfBDYZff3THaoreKMud4u6Q5za01tGY7s&callback=myMap"></script> 
+<script type="text/javascript">
+  $(document).ready(function() {
+  setTimeout(function() {
+    window.document.body.children[13].remove();
+  }, 2);
+});
+</script>
   </body>
 
 </html>
