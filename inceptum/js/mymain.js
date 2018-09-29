@@ -33,7 +33,7 @@ function music2() {
 var loader;
 function myFunction(){
   // if(window.location.href == )
-	loader = setTimeout(showpage,5000);
+	loader = setTimeout(showpage,1000);
 }
 function showpage(){
   
